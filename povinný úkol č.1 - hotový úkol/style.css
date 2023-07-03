@@ -1,0 +1,259 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+img{
+    width: 100%;
+    }
+p{
+    font-size: 16px;
+    text-align: justify;
+}
+body{
+    font-family: Roboto, sans-serif;
+    max-width: 1440px;
+    margin: auto;
+}
+
+/*  box navigation */
+.navigation .navigation-type{
+    display: none;
+}
+.box-navigation{
+    background:#3A2E2F ;
+}
+.icon-menu-box{
+    width: 75%;
+    height: 70px;
+    margin: auto;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background:#3A2E2F ;
+}
+.icon-menu{
+    width: 40px;
+    height: 40px;
+    background:#3A2E2F ;
+    stroke: currentColor;
+    fill: currentColor;
+    color: #FFFFFF;
+    }
+
+
+
+
+/* <!-- box header --> */
+.backround{ 
+    height: 80vh;
+    background-image:url(images/scott-goodwill-y8Ngwq34_Ak-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.text{
+    width: 75%;
+    margin: auto;
+    position: relative;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: end;
+    font-size: 40px;
+    font-weight: bold;
+    top: 65%;
+}
+
+
+/* <!-- box main sekce About Us --> */
+.about-us h3{
+    width: 75%;
+    margin: auto;
+    padding-top: 50px;
+}
+.about-us p{
+    width: 75%;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-bottom: 20px;
+}
+.about-us .pictures-anneliese{
+    margin: auto;
+    width: 75%;
+    padding-bottom: 40px;
+}
+
+
+
+/* <!-- box main sekce what-we-do --> */
+.what-we-do .icons{
+    margin-bottom: 40px;
+}
+.what-we-do .text-what-we-do{
+    background:rgba(51, 41, 42, 1);
+}
+.what-we-do h3{
+    text-align: center;
+    padding-top: 25px;
+    color: #FFFFFF;
+    }
+.what-we-do p{
+    margin: auto;
+    width: 75%;
+    padding: 20px 0px 20px 0px;
+    color: #FFFFFF;
+    }
+.icons{
+    background:rgba(51, 41, 42, 1);
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 40px;
+    fill: currentColor;
+    color: #FFFFFF;
+
+}
+.icons-hiking, .icons-cycle, .icons-water, .icons-car{
+    width: 50px;
+    height: 50px;
+    padding-top: 15px;
+    }
+
+
+
+
+
+ /* box main sekce our trips */
+.our-trips{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 75%;
+    margin: auto;
+}
+.rectagle{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#F2F2F2 ;
+    font-size: 20px;
+    font-weight: bold;
+    height: 50px;
+    border-radius: 5px;
+}
+.our-trips img{
+    border-radius: 5px;
+}
+
+
+
+
+/* box main sekce where do you want to  go */
+.question{
+    background:#644B4F ;
+    margin-top: 40px;
+}
+.question-part1{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 30px;
+    text-align: center;
+}
+.question-part2{
+    width: 75%;
+    margin: auto;
+    color: #FFFFFF;
+    font-size: 11px;
+    padding: 20px 15px 20px 15px;
+}
+.question-part2 a{
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 3px;
+    color: black;
+    background: #F2F2F2;
+    margin-top: 40px;
+    padding: 8px;
+}
+.question-part2 a:hover { 
+    font-size: 20px;
+    background-color: rgba(51, 41, 42, 1);
+    color: #FFFFFF;
+    border-radius: 10px;
+}
+
+
+
+/* box main sekce reviews */
+.reviews{
+    margin-bottom: 100px;
+}
+.reviews h2{
+    text-align: center;
+    padding-top: 40px;
+} 
+.reviews p{
+    width: 75%;
+    margin: auto;
+    padding-top: 15px;
+}
+.two-blocks{
+    text-align: center;
+}
+.bertie img, .frank img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: 60px;
+}
+.bertie h3, .frank h3{
+    padding-top: 20px;
+}
+
+
+
+
+/* box main sekce pictures */
+.pictures{
+    margin-top: 60px;
+}
+
+
+
+
+
+/* sekce footer */
+footer{
+    height: 80px;
+    text-align: center;
+    background: rgba(51, 51, 51, 1);
+    padding: 15px;
+}
+h6{
+    color: #FFFFFF;
+}
+footer a{
+    color: rgba(239, 166, 157, 1);
+    text-decoration: none;
+}
+footer p{
+    color: #FFFFFF;
+    text-align: center;
+}
+footer a:hover{
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 110px;
+    margin-right: 110px;
+    font-size: 20px;
+    background-color: #cfaf93;
+    color: black;
+    border-radius: 5px;
+}

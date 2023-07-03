@@ -1,0 +1,233 @@
+@media only screen and (min-width: 768px){
+
+
+/* box navigation */
+.navigation .navigation-type{
+    width: 75%;
+    height: 70px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #3A2E2F;
+}
+.navigation a{
+    color: rgb(16, 18, 178); 
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+nav ul li a:hover {
+    font-size: 25px;
+    text-decoration: underline;
+}
+.icon-menu-box{
+    display: none;
+}
+
+
+
+
+/* box header */
+.text{
+    font-size: 65px;
+    top: 55%;
+}
+
+
+
+
+
+    /* box main sekce About Us */
+.about-us{
+    width: 75%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.about-us .pictures-anneliese img{
+    width: 100%;
+    height: 100%;
+}
+.about-us h3{
+    padding-top: 0px;
+    padding-left: 0px;
+    margin: 0px;
+}
+.about-us .pictures-anneliese{
+    width: 100%;
+    height: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+}
+.about-us p{
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 13px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+
+
+   /* box main sekce what-we-do */
+.what-we-do{
+    display: flex;
+    flex-direction: column;
+    background: #33292A;
+    padding-top: 50px;
+}
+.icons{
+    width: 75%;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+}
+.text-what-we-do{
+    width: 75%;
+    margin: auto;
+}.what-we-do p{
+    margin: 0px;
+    width: 100%;
+    }
+
+
+
+
+
+/* box main sekce our trips  */
+.our-trips{
+    width: 75%;
+    margin-top: 30px;
+    display: grid;
+    gap: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: relative;
+}
+.rectagle{
+    width: 100%;
+    height: 100%;
+    background:#F2F2F2 ;
+    font-size: 25px;
+    margin-top: 0;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: flex;
+    align-items: center;
+}
+.our-trips img{
+    width: 100%;
+    height: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+}
+
+
+
+
+
+/* box main sekce where do you to go */
+.section-question{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    background:#644B4F ;
+    }
+.question{
+    width: 75%;
+    display: flex;
+    }
+.question-part1{
+    flex-basis: 33.3%;
+    text-align: start;
+}
+.question-part2{
+    color: #FFFFFF;
+    margin-left: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    flex-basis: 66.6%;
+}
+
+
+
+
+
+
+/* box main sekce reviews */
+.reviews{
+    margin-top:20px;
+} 
+.one-block{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+.two-blocks{
+    width: 75%;
+    display: flex;
+    gap: 100px;
+    font-size: 11px;
+    text-align: center;
+    margin: 60px auto;
+}
+.bertie img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+.frank img{
+    margin-bottom: 30px;
+}
+.reviews h4{
+    margin-top:20px ;
+}
+.two-blocks p{
+    width: 100%; 
+}
+
+
+
+
+
+/* box main sekce pictures */
+.pictures{
+    display: flex;
+    flex-wrap: wrap;
+}
+.pictures img{
+    width: 50%;
+}
+footer a:hover{
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 310px;
+    margin-right: 310px;
+    font-size: 20px;
+    background-color: #cfaf93;
+    color: black;
+    border-radius: 5px;
+}
+}
+
+
+
+
+@media only screen and (min-width: 1000px){
+
+        /* box main sekce About Us */
+
+.about-us p{
+    font-size: 16px;
+}
+
+}
